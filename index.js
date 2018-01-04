@@ -32,4 +32,7 @@ function removeLastDriver() {
   return copy
 }
 
-
+function removeFirstDriver() {
+  copy = drivers.slice(1, drivers.length)
+  return copy
+}
