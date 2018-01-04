@@ -9,6 +9,6 @@ function destructivelyPrependDriver(driver) {
   drivers.unshift(driver)
 }
 
-function destructivelyRemoveDriver() {
+function destructivelyRemoveLastDriver() {
   drivers.pop()
 }
