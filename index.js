@@ -26,3 +26,10 @@ function prependDriver(driver) {
   copy = [driver, ...drivers]
   return copy
 }
+
+function removeLastDriver() {
+  copy = drivers.slice(0, drivers.length - 1)
+  return copy
+}
+
+
