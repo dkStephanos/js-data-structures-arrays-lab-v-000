@@ -21,3 +21,8 @@ function appendDriver(driver) {
   copy = [...drivers, driver]
   return copy
 }
+
+function prependDriver(driver) {
+  copy = [driver, ...drivers]
+  return copy
+}
