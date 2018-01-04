@@ -19,5 +19,6 @@ function destructivelyRemoveFirstDriver() {
 
 function appendDriver(driver) {
   copy = drivers
-  return copy.push(driver)
+  copy.push(driver)
+  return copy
 }
